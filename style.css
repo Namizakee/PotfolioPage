@@ -1,0 +1,82 @@
+
+*{
+    font-family: 'fantasy';
+}
+body{
+    border: 2px solid black;
+    margin: 25px;
+    margin-right: 180x;
+}
+body h1{
+    position:absolute;
+    right: 230px;
+    top: 20%;
+    font-size: 40px;
+    font-family: fantasy;
+    letter-spacing: 5px;
+}
+.sitelogo{
+    padding: 20px;
+}
+.sitelogo img{
+    border-radius: 100%;
+    border: 3px solid black;
+}
+.introheading{
+    position: relative;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    line-height: 30px;
+}
+.introheading a{
+    border: 1px solid black ;
+    padding: 5px;
+}
+.introheading p{
+    position: relative;
+    bottom: 10px;
+}
+.introheading aside{
+    float: right;
+    position: absolute;
+    right:10px;
+    bottom: 20%;
+}
+.Portpolios{
+    margin: 25px;
+    margin-bottom: 70px;
+   position: relative;
+}
+.Portpolios a{
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin: 5px;
+    position: relative;
+    top: 35px;
+    border-radius: 10px;
+}
+.about{
+    margin-left: 25px;
+}
+.contacts{
+    position: relative;
+    margin: 20px;
+}
+.navigations{
+    display: flex;
+    flex: 1;
+    top: 5%;
+}
+.navigations  p{
+    position: relative;
+   border: 1px solid black;
+   padding: 5px;
+   left: 650px;
+   margin-right: 10px;
+   
+}
